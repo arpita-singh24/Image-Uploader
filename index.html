@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploader</title>
+    <link rel="stylesheet" href="drag&drop.css">
+</head>
+
+<body>
+    <div class="drop-section">
+        <label for="input-file" id="drop-area">
+            <input type="file" accept="image/*" id="input-file" hidden>
+            <div id="img-view">
+                <img src="move.png" alt="" id="drag-img">
+                <p>Drag & drop or click here to upload image</p>
+                <span>Upload image from desktop</span>
+                <!-- <button id="btn">Upload</button> -->
+            </div>
+        </label> 
+    </div>
+    <script src="drag&drop.js"></script>
+</body>
+
+</html>
